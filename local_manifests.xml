@@ -6,15 +6,6 @@
     <remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
-
-    <!-- Removals -->
-    <remove-project name="device/samsung/gta4l" />
-    <remove-project name="device/samsung/gta4l-common" />
-    <remove-project name="kernel/samsung/gta4l" />
-    <remove-project name="vendor/samsung/gta4l" />
-    <remove-project name="vendor/samsung/gta4l-common" />
-    <remove-project name="hardware/samsung" />
-
     <!-- Repos -->
 
     <!-- Device -->
