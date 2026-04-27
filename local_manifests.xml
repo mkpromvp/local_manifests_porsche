@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated for ProjectInfinity-X gta4l -->
-
-    <!-- Remotes -->
-    <remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
+<remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
-    <!-- Repos -->
-
-    <!-- Device -->
+    
     <project path="device/samsung/gta4l" 
              name="android_device_samsung_gta4l" 
              remote="Il103" 
              revision="lineage-22.1" />
 
-    <!-- Device - Common -->
     <project path="device/samsung/gta4l-common" 
              name="android_device_samsung_gta4l-common" 
              remote="Il103" 
              revision="lineage-22.1" />
 
-    <!-- Kernel -->
     <project path="kernel/samsung/gta4l" 
              name="android_kernel_samsung_sm6115" 
              remote="LineageOS" 
              revision="lineage-22.1" />
 
-    <!-- Vendor -->
     <project path="vendor/samsung/gta4l" 
              name="proprietary_vendor_samsung_gta4l" 
              remote="TheMuppets" 
-             revision="main" />
+             revision="lineage-21" />
 
-    <!-- Vendor - Common -->
     <project path="vendor/samsung/gta4l-common" 
              name="proprietary_vendor_samsung_gta4l-common" 
              remote="TheMuppets" 
-             revision="main" />
+             revision="lineage-21" />
 
-    <!-- Hardware -->
     <project path="hardware/samsung" 
              name="android_hardware_samsung" 
              remote="LineageOS" 
