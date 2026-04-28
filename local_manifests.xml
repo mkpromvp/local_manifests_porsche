@@ -17,7 +17,7 @@
     <project path="kernel/samsung/gta4l" 
              name="android_kernel_samsung_sm6115" 
              remote="LineageOS" 
-             revision="lineage-22.2" />
+             revision="lineage-22.1" />
 
     <project path="vendor/samsung/gta4l" 
              name="proprietary_vendor_samsung_gta4l" 
