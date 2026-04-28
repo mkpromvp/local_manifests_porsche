@@ -22,7 +22,7 @@
     <project path="vendor/samsung/gta4l" 
              name="proprietary_vendor_samsung_gta4l" 
              remote="TheMuppets" 
-             revision="lineage-21" />
+             revision="lineage-22.1" />
 
     <project path="vendor/samsung/gta4l-common" 
              name="proprietary_vendor_samsung_gta4l-common" 
