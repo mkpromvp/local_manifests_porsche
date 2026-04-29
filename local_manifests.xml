@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
+    <!-- Remotes -->
+    <remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
-    
+
     <project path="device/samsung/gta4l" 
              name="android_device_samsung_gta4l" 
              remote="Il103" 
-             revision="lineage-22.1" />
+             revision="lineage-22.2" />
 
     <project path="device/samsung/gta4l-common" 
              name="android_device_samsung_gta4l-common" 
              remote="Il103" 
-             revision="lineage-22.1" />
+             revision="lineage-22.2" />
 
+    <!-- Kernel -->
     <project path="kernel/samsung/gta4l" 
              name="android_kernel_samsung_sm6115" 
              remote="LineageOS" 
              revision="lineage-22.1" />
 
+    <!-- Vendor (TheMuppets) -->
     <project path="vendor/samsung/gta4l" 
              name="proprietary_vendor_samsung_gta4l" 
              remote="TheMuppets" 
@@ -29,6 +32,7 @@
              remote="TheMuppets" 
              revision="lineage-22.1" />
 
+    <!-- Hardware -->
     <project path="hardware/samsung" 
              name="android_hardware_samsung" 
              remote="LineageOS" 
