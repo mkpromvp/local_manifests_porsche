@@ -1,43 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-    <remote name="Il103" fetch="https://github.com/Il103" clone-depth="1" />
-    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
-
     <!-- Device -->
     <project path="device/samsung/gta4l"
-             name="android_device_samsung_gta4l"
-             remote="Il103"
+             name="mkpromvp/android_device_samsung_gta4l"
+             remote="github"
              revision="lineage-22.1" />
 
     <project path="device/samsung/gta4l-common"
-             name="android_device_samsung_gta4l-common"
-             remote="Il103"
+             name="Il103/android_device_samsung_gta4l-common"
+             remote="github"
              revision="lineage-22.1" />
 
     <!-- Kernel -->
     <project path="kernel/samsung/gta4l"
-             name="android_kernel_samsung_sm6115"
-             remote="LineageOS"
+             name="LineageOS/android_kernel_samsung_sm6115"
+             remote="github"
              revision="lineage-22.1" />
 
     <!-- Vendor -->
     <project path="vendor/samsung/gta4l"
-             name="proprietary_vendor_samsung_gta4l"
-             remote="TheMuppets"
+             name="TheMuppets/proprietary_vendor_samsung_gta4l"
+             remote="github"
              revision="lineage-22.1" />
 
     <project path="vendor/samsung/gta4l-common"
-             name="proprietary_vendor_samsung_gta4l-common"
-             remote="TheMuppets"
+             name="TheMuppets/proprietary_vendor_samsung_gta4l-common"
+             remote="github"
              revision="lineage-22.1" />
 
-    <!-- Samsung Hardware -->
+    <!-- Hardware -->
     <project path="hardware/samsung"
-             name="android_hardware_samsung"
-             remote="LineageOS"
+             name="LineageOS/android_hardware_samsung"
+             remote="github"
              revision="lineage-22.1" />
 
 </manifest>
