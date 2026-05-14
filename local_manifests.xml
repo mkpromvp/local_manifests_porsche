@@ -28,6 +28,6 @@
 
   <project path="hardware/qcom/sm7250/gps"
            name="LineageOS/android_hardware_qcom_sm7250_gps"
-           remote="gh" revision="lineage-23.0" />
+           remote="gh" revision="lineage-23.2" />
 
 </manifest>
